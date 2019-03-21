@@ -13,29 +13,29 @@
 <body>
 
   <form method="POST" action="">
-    <div>
-      <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    <div class="header gutter push">
+      <h1 class="push-1-4 yotta">Apply to be a tree planter</h1>
+      <p class="push giga">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
 
-    <fieldset>
-      <legend>Personal details</legend>
-      <div>
-        <label for="name">Full name</label>
+    <fieldset class="gutter-1-2">
+      <legend class="peta push">Personal details</legend>
+      <div class="push">
+        <label class="giga" for="name">Full name</label>
         <input id="name" name="full-name" type="text">
-        <p>Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley"</p>
+        <p class="italic">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley"</p>
       </div>
-      <div>
-        <label for="nickname">What should we call you?</label>
+      <div class="push">
+        <label class="giga" for="nickname">What should we call you?</label>
         <input id="nickname" name="nickname" type="text">
-        <p>What all your friends call you, e.g. "Liz".</p>
+        <p class="italic">What all your friends call you, e.g. "Liz".</p>
       </div>
-      <div>
-        <label for="date-of-birth">Date of birth</label>
+      <div class="push">
+        <label class="giga" for="date-of-birth">Date of birth</label>
         <input id="date-of-birth" name="date-of-birth" type="date">
       </div>
-      <div>
-        <label for="shirt-size">T-shirt size</label>
+      <div class="push">
+        <label class="giga" for="shirt-size">T-shirt size</label>
         <select id="shirt-size" name="shirt-size">
           <option>Fitted: XS</option>
           <option>Fitted: S</option>
@@ -47,28 +47,29 @@
           <option>Straight-cut: M</option>
           <option>Straight-cut: L</option>
           <option>Straight-cut: XL</option>
+        </select>
       </div>
-      <div>
-        <label for="email">Email</label>
+      <div class="push">
+        <label class="giga" for="email">Email</label>
         <input id="email" name="email" type="email">
       </div>
-      <div>
-        <label for="phone-number">Phone number (optional)</label>
+      <div class="push">
+        <label class="giga" for="phone-number">Phone number (optional)</label>
         <input id="phone-number" name="phone-number" type="tel">
       </div>
     </fieldset>
-    <fieldset>
-      <legend>Address</legend>
-      <div>
-        <label for="street-address">Street address</label>
+    <fieldset class="gutter-1-2">
+      <legend class="peta push">Address</legend>
+      <div class="push">
+        <label class="giga" for="street-address">Street address</label>
         <input id="street-address" name="street-address" type="text">
       </div>
-      <div>
-        <label for="city">City</label>
+      <div class="push">
+        <label class="giga" for="city">City</label>
         <input id="city" name="city" type="text">
       </div>
-      <div>
-        <label for="province">Province</label>
+      <div class="push">
+        <label class="giga" for="province">Province</label>
         <select id="province" name="province">
           <option>Select a province</option>
           <option>Alberta</option>
@@ -86,8 +87,8 @@
           <option>Yukon</option>
         </select>
       </div>
-      <div>
-        <label for="postal-code">Postal code</label>
+      <div class="push">
+        <label class="giga" for="postal-code">Postal code</label>
         <input id="postal-code" name="postal-code" type="text">
       </div>
     </fieldset>
@@ -208,10 +209,12 @@
         <textarea id="questions"></textarea>
       </div>
     </fieldset>
-    <button class="btn" type="submit">Apply</button>
+    <div class="center-text">
+      <button class="btn" type="submit">Apply</button>
+    </div>
   </form>
   <footer>
-    <p>© Tree Hugger International Organization</p>
+    <p class="push-0">© Tree Hugger International Organization</p>
   </footer>
 
 </body>

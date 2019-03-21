@@ -1,0 +1,29 @@
+.header {
+  background-color: #70ad55;
+  color: #fff;
+  padding-bottom: .1rem;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+fieldset {
+  border: 0;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: 0;
+  padding: .5rem 2rem;
+}
+
+input,
+select,
+textarea,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
