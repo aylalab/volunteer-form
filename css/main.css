@@ -4,6 +4,10 @@
   padding-bottom: .1rem;
 }
 
+html {
+  font-family: "Noto Serif", serif;
+}
+
 footer {
   background-color: #70ad55;
   color: #fff;
