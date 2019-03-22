@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Volunteer form</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
@@ -18,23 +18,23 @@
       <p class="push giga">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
 
-    <fieldset class="gutter-1-2">
+    <fieldset class="grid gutter-1-2">
       <legend class="peta push">Personal details</legend>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2  push">
         <label class="giga" for="name">Full name</label>
-        <input id="name" name="full-name" type="text">
+        <input id="name" name="full-name" type="text" required>
         <p class="italic">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley"</p>
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2  push">
         <label class="giga" for="nickname">What should we call you?</label>
         <input id="nickname" name="nickname" type="text">
         <p class="italic">What all your friends call you, e.g. "Liz".</p>
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2  push">
         <label class="giga" for="date-of-birth">Date of birth</label>
         <input id="date-of-birth" name="date-of-birth" type="date">
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2  push">
         <label class="giga" for="shirt-size">T-shirt size</label>
         <select id="shirt-size" name="shirt-size">
           <option>Fitted: XS</option>
@@ -49,11 +49,11 @@
           <option>Straight-cut: XL</option>
         </select>
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2  push">
         <label class="giga" for="email">Email</label>
         <input id="email" name="email" type="email">
       </div>
-      <div class="push">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
         <label class="giga" for="phone-number">Phone number (optional)</label>
         <input id="phone-number" name="phone-number" type="tel">
       </div>
@@ -93,7 +93,7 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend class="">What activities are you interested in helping with?</legend>
+      <legend>What activities are you interested in helping with?</legend>
       <div>
         <input id="digging-holes" name="digging-holes" type="checkbox">
         <label for="digging-holes">Digging holes</label>
@@ -204,7 +204,8 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend>Please let us know any comments or questions you may have. (optional)</legend>
+      <legend>Please let us know any comments or questions you may have.(optional)</legend>
+      <label for="questions"></label>
       <textarea id="questions"></textarea>
     </fieldset>
     <div class="center-text push-2">
